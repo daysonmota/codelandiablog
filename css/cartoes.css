@@ -1,0 +1,43 @@
+.cartoes {
+    margin-top: 3rem;
+}
+
+.card {
+    background-color: var(--card-background);
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+
+.conteudo {
+    padding: 1rem;
+}
+
+.espacamento_titulo_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-card {
+    color: var(--cor-cinza);
+    font-size: 1rem;
+    padding-bottom: 1.3rem;
+}
+
+.titulo-card {
+    padding-bottom: 0.5rem;
+}
+
+.descricao-card {
+    font-size: 1rem;
+    color: var(--cor-cinza);
+    line-height: 1.8rem;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 80%;
+        margin: auto auto;
+        margin-bottom: 1.5rem;
+    }
+}

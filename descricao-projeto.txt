@@ -1,0 +1,14 @@
+Fontes: 
+Lexend Deca: weight: 400
+
+Inter: 400;
+
+cores: 
+    #574AE8
+    #475461
+    #B6B6B6
+    #F3F5F7
+    #FFFFFF
+    #574AE8
+    #574AE8
+    #3EA1DB

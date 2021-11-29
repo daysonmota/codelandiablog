@@ -1,0 +1,17 @@
+:root {
+    --cor-cabecalho: #FFFFFF;
+    --corpo-background: #F3F5F7;
+    --card-background: #FFFFFF;
+    --cor-cinza: #B6B6B6;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.25rem;
+    background: var(--corpo-background);
+}
+
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}

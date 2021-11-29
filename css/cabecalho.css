@@ -1,0 +1,46 @@
+            .cabecalho {
+                background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+            }
+            
+            .cabecalho_titulo {
+                padding-top: 3rem;
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 2.5rem;
+                font-size: 1rem;
+                font-weight: 400;
+                color: var(--cor-cabecalho);
+            }
+            
+            .cabecalho_pesquisa {
+                padding-bottom: 2rem;
+            }
+            
+            .pesquisa_blog {
+                width: 100%;
+                border-radius: 5px;
+                background: transparent;
+                padding: 1rem 0;
+                color: #FFFFFF;
+                display: flex;
+                flex-direction: row;
+                background: rgba(255, 255, 255, 0.2);
+            }
+            
+            .input-text,
+            input::placeholder {
+                width: 100%;
+                background: transparent;
+                border: none;
+                outline: 0;
+                font-family: 'inter', sans-serif;
+                color: #FFFF;
+            }
+            
+            @media screen and (min-width: 768px) {
+                .cabecalho_titulo,
+                .cabecalho_pesquisa {
+                    width: 80%;
+                    margin: auto auto;
+                }
+            }
